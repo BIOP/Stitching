@@ -143,8 +143,8 @@ public class ImageCollectionElement
 
 					if ( !r.isOrderCertain() )
 					{
-						Log.info( "dimension order is not certain, assuming XYZ instead of XYT" );
-						imp[ 0 ].setDimensions( imp[ 0 ].getNChannels(), imp[ 0 ].getNFrames(), imp[ 0 ].getNSlices() );
+						// Log.info( "dimension order is not certain, assuming XYZ instead of XYT" );
+						// imp[ 0 ].setDimensions( imp[ 0 ].getNChannels(), imp[ 0 ].getNFrames(), imp[ 0 ].getNSlices() );
 					}
 
 					r.close();
